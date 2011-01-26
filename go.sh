@@ -2,7 +2,6 @@
 
 # update arguments with your name or email that git would recognize
 # and enter a date range
-# ruby git_calendar.rb <your name> <your projects folder path> <start date> <end date> > out.csv
 
 name='Brian'
 projects_folder="/Users/brian/projects"
