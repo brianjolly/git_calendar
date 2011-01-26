@@ -11,19 +11,19 @@ unless author
   author = gets.to_s
 end
 
-start_date = ARGV[1]
+start_date = ARGV[2]
 unless start_date
   print "Enter a start date: "
   start_date = gets.to_s
 end
 
-end_date = ARGV[2]
+end_date = ARGV[3]
 unless end_date
   print "Enter a end date: "
   end_date = gets.to_s
 end
 
-projects_dir = "/home/brian/projects"
+projects_dir = ARGV[1]
 Dir.chdir projects_dir
 
 output = ["time,commit,project"]

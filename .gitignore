@@ -2,3 +2,5 @@
 *.swn
 *.swo
 *.swp
+httpdocs/js/out.json
+out.csv

@@ -1,0 +1,12 @@
+This is in a pretty rough "condept" state right now. 
+
+Edit the go.sh script with your name, the path to your projects folder and a date range
+
+Run go.sh in the command line
+./go.sh
+
+Sometimes go.sh prints out something like "fatal: bad default revision 'HEAD'"
+I don't know what that's about, but everything should still work ok.
+
+Then point your browser at the html file
+httpdocs/index.html

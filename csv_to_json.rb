@@ -15,4 +15,5 @@ file.each_line do |line|
   end
   output.push(assoc)
 end
+print "log_data = "
 puts output.to_json
